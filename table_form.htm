@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <caption>Student Data</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Information</th>
+                <!-- <th>Roll Number</th>
+                <th>Name</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Bunny</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Bucky</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Bunty</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="/action.php">
+        <input type="text" placeholder="Username">
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <h5>Select Your Class
+        </h5>
+        <label for="101">
+            <input type="radio" name="class" value="class X" id="101">Class X
+        </label>
+        <br>
+        <label for="102">
+            <input type="radio" name="class" value="class XI" id="102">Class XI
+        </label>
+        <h5>Select Fav Subjects
+        </h5>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101">Maths
+        </label><br>
+        <label for="chem">
+            <input type="checkbox" value="chem" name="subject" id="101">Chemistry
+        </label><br>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="101">Physics
+        </label>
+        <br>
+        <br>
+        Select City
+        <select name="city" id="">
+            <option value="delhi">Delhi</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Pune">Pune</option>
+        </select>
+        <br><br>
+        <textarea name="feedback" id="101" placeholder="Please give valuable feedback here" cols="30"
+            rows="10"></textarea>
+            <br>    
+        <input type="submit" value="Submit" name="" id="">
+    </form>
+    <iframe src="https://www.wikipedia.org/" frameborder="0"></iframe>
+</body>
+
+</html>
